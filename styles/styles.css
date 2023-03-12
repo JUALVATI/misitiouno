@@ -1,0 +1,110 @@
+@import url(./fonts/Poppins-Black.ttf);
+
+h1 {
+  color: rgb(204, 143, 63);
+  text-align: center;
+  font-size: 60px;
+}
+
+.titulo {
+  text-align: justify;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  font-family: fantasy;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+.menu {
+  float: left;
+  padding: 50px;
+  color: rgb(204, 143, 63);
+}
+
+a {
+  color: rgb(214, 51, 219);
+}
+
+.imagenes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.imagenes > img {
+  width: 230px;
+  border-radius: 10px;
+}
+
+p {
+  text-align: left;
+  font-size: 15px;
+}
+
+.imagenesfooter {
+  width: 2rem;
+  float: left;
+  padding: 8px;
+}
+
+.logo {
+  width: 180px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.texto {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid;
+  color: rgb(120, 73, 11);
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.texto p {
+  font-size: 15px;
+}
+
+h2 {
+  font-size: x-large;
+  color: rgb(120, 73, 11);
+}
+
+.estatua {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid;
+  color: rgb(120, 73, 11);
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.dolby {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid;
+  color: rgb(120, 73, 11);
+  margin: 1rem;
+  border-radius: 10px;
+}
+footer {
+  position: absolute;
+  background-color: wheat;
+  height: 85px;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+}
